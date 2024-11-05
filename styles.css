@@ -53,8 +53,38 @@ body{
 
 }
 
-/*
 
+.calculator input:hover{
+    background-color: hsl(11, 23%, 78%);
+
+}
+
+.calculator input:active{
+    background-color: hsl(11, 23%, 85%);
+}
+
+
+form input.zero {
+    width: 210px;
+}
+form input.operator-button{
+    background-color: hsl(35, 100%, 60%);
+}
+
+.operator-button:hover{
+    background-color: hsl(35, 100%, 70%);
+}
+
+.operator-button:active{
+    background-color: hsl(35, 100%, 85%);
+} 
+
+
+
+
+/* Version 2 code */
+
+/*
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -80,28 +110,3 @@ button{
 */
 
 
-.calculator input:hover{
-    background-color: hsl(11, 23%, 78%);
-
-}
-
-.calculator input:active{
-    background-color: hsl(11, 23%, 85%);
-}
-
-
-
-form input.zero {
-    width: 210px;
-}
-form input.operator-button{
-    background-color: hsl(35, 100%, 60%);
-}
-
-.operator-button:hover{
-    background-color: hsl(35, 100%, 70%);
-}
-
-.operator-button:active{
-    background-color: hsl(35, 100%, 85%);
-} 
